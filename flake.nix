@@ -12,9 +12,6 @@
         buildInputs = with pkgs; [
           nodePackages.npm
           nodejs-slim
-          wasm-bindgen-cli
-          rustup
-          gnumake
         ];
       };
     });
